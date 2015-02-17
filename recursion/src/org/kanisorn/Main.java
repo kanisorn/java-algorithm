@@ -32,6 +32,8 @@ public class Main {
 		System.out.println("min of array is " + findMin(array, 5));
 		array = new int[]{2, 4, 6, 8, 0};
 		System.out.println("min of array is " + findMin(array, 5));
+		
+		
 	}
 	
 	// write a recursive function that computes the factorial of n, where n is given as parameter
