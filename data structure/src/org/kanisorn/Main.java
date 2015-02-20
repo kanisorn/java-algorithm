@@ -4,6 +4,7 @@
 package org.kanisorn;
 
 import org.kanisorn.lists.Employee;
+import org.kanisorn.trees.BinaryTree;
 /**
  * @author kanisorn
  *
@@ -26,6 +27,15 @@ public class Main {
 		emp.printPaymentAmount("1/1/2001");
 		emp.printPaymentAmount("1/15/2006");
 		emp.printAveragePaycheck();
+		
+		BinaryTree<String> t = new BinaryTree<String>("Kanisorn");
+		t.add("BBB");
+		t.add("AAA");
+		t.add("CCC");
+		t.add("ZZZ");
+		
+		t.traverseInorder();
+		
 	}
 
 }
