@@ -13,6 +13,13 @@ public class Main {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		
+		int mid1 = (10 + 11) >>> 1;
+		System.out.println(mid1);
+		mid1 = (10 + 20) >>> 1;
+		System.out.println(mid1);
+		
+		
 		int [] array = {1};
 		System.out.println(largestAdjacentSum(array));
 		
